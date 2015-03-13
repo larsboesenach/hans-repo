@@ -1,0 +1,136 @@
+a, p,
+h1, h2, h3,
+h4, h5, h6 {
+  color: #163F57;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px; }
+
+a {
+  text-decoration: none !important; }
+
+html, body {
+  height: 100%; }
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 0px;
+  background-color: #EEEEEE; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 0px; }
+
+.site-footer {
+  background: white;
+  border-top: 1px solid #EEEEEE; }
+
+.button {
+  background-color: #F35656;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  z-index: 10;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+  .button:hover {
+    opacity: 0.8;
+    color: white; }
+
+.LoginScreenPage {
+  position: absolute;
+  background-color: #EEEEEE;
+  background-image: url("../img/Wallpaper.jpg");
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; }
+
+.Login-box {
+  background-color: white;
+  height: auto;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+  .Login-box .logo-wrap {
+    margin: 35px auto;
+    text-align: center; }
+    .Login-box .logo-wrap img {
+      display: inline-block;
+      width: 100px; }
+  .Login-box .input-fields {
+    margin: 0px 40px; }
+    .Login-box .input-fields input {
+      border: 0 solid #000;
+      background-color: #F5F5F5;
+      color: #C9C9C9;
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 30px; }
+  .Login-box .signIn-button a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    margin: 0 40px;
+    background-color: #00BEFE;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .Login-box .forgotPassword {
+    text-align: center; }
+    .Login-box .forgotPassword a {
+      display: inline-block;
+      font-size: 15px;
+      color: #C9C9C9;
+      padding: 10px;
+      margin: 10px 40px 15px; }
+
+.Sidebar-wrap {
+  width: 350px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 8; }
+  .Sidebar-wrap .box1 {
+    height: 300px;
+    width: 100%;
+    background-color: #FFEDED; }
+
+.Homepage .SidebarFix {
+  padding-left: 350px; }
+  .Homepage .SidebarFix .Content-wrap {
+    padding: 30px; }
+  .Homepage .SidebarFix .Top-bar {
+    background-color: white;
+    display: block;
+    padding: 10px;
+    height: 80px; }
+  .Homepage .SidebarFix .Content-entry {
+    margin: 40px auto 20px;
+    max-width: 700px;
+    background-color: white;
+    min-height: 500px; }
+
